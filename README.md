@@ -2,4 +2,4 @@
 
 ##Sunny Groceries
 
-###Link to wireframe: [Sunny Groceries][http://invis.io/D543BPX4]
+[Wireframe][http://invis.io/D543BPX4]
