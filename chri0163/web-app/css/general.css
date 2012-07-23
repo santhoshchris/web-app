@@ -99,7 +99,7 @@ nav .current a:visited {
 }
 
 .col{
-	text-align:left;
+	text-align:center;
 	background-color: #333;
 	float: left;
 	width: 12.65%;
@@ -109,7 +109,6 @@ nav .current a:visited {
 }
 
 .triple{
-	text-align:left;
 	background-color: #666;
 	float: left;
 	width: 30%;

@@ -16,14 +16,14 @@ $tomatoes = filter_input(INPUT_POST, 'tomatoes', FILTER_SANITIZE_NUMBER_INT);
 */
 
 include 'includes/db.php';
-/*
+
 	$sql = $db->prepare('
 		UPDATE groceries
 		SET checked = 0	
 		');
 	
 		$sql->execute(); 
-*/
+
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	
@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		
 		}
 		
-		//header('Location: index.php');
+		header('Location: index.php');
 		exit;
 		
 }
