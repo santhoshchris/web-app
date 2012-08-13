@@ -11,8 +11,8 @@ $carrots = filter_input(INPUT_POST, 'carrots', FILTER_SANITIZE_NUMBER_INT);
 $potatoes = filter_input(INPUT_POST, 'potatoes', FILTER_SANITIZE_NUMBER_INT);
 $tomatoes = filter_input(INPUT_POST, 'tomatoes', FILTER_SANITIZE_NUMBER_INT);
 
-*/
 
+*/
 
 include 'includes/db.php';
 
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Flexible Layouts</title>
+		<title>Fruits &amp; Vegetables</title>
 		<link href="css/general.css" rel="stylesheet">
 
 	<script src="js/list-java.js"></script>
@@ -81,26 +81,21 @@ function MM_swapImage() { //v3.0
 }
         </script>
 	</head>
-    
-	<body onLoad="MM_preloadImages('buttons/dairy2.png','buttons/fruitsveggies2.png','buttons/fish2.png','buttons/other2.png','buttons/edit2.png')">
+	<body onLoad="MM_preloadImages('buttons/dairy2.png','buttons/fruitsveggies2.png','buttons/fish2.png','buttons/other2.png')">
        
     <div class="col-group clearfix">
 		
 			<div class="col-left">
             
-            <a href="fruitsveg.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('fruitsandveggies','','buttons/fruitsveggies2.png',1)"><img src="buttons/fruitsveggies.png" name="fruitsandveggies" width="138" height="138" border="0"></a>
+             <img src="buttons/fruitsveggies2.png" width="138" height="138" alt="veggiesfruits">
             
             <a href="dairy.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','buttons/dairy2.png',1)"><img src="buttons/dairy.png" name="Image8" width="139" height="139" border="0"></a> 
             
             <a href="fish.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','buttons/fish2.png',1)"><img src="buttons/fish.png" name="Image9" width="138" height="138" border="0"></a>
     		
-            <a href="other.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('other','','buttons/other2.png',1)"><img src="buttons/other.png" name="other" width="136" height="136" border="0"></a> 
-            
-            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('edit','','buttons/edit2.png',1)"><img src="buttons/edit.png" name="edit" width="105" height="68" border="0"></a> 
-            
-            <img src="buttons/undo.png" width="63" height="78" alt="undo">
+            <a href="other.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('other','','buttons/other2.png',1)"><img src="buttons/other.png" name="other" width="136" height="136" border="0"></a><a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
       
-      		<img src="buttons/save.png" width="56" height="76" alt="save">
+      <a href="save.php"><img src="buttons/save.png" width="56" height="76" alt="save"></a>
       
    </div>
 <div class="col-right">
@@ -109,11 +104,9 @@ function MM_swapImage() { //v3.0
               
               <p>
               
-<form method="post" action="displaylist.php">
-    <input id="item" autofocus>
+<form method="post" action="fruitsveg.php">
+  <p>
     
-    <p>
-   
     
     
     <input type="checkbox" name="apples" value="1" />Apples <br/>
@@ -121,14 +114,16 @@ function MM_swapImage() { //v3.0
     <input type="checkbox" name="grapes" value="1" />Grapes <br>
     <input type="checkbox" name="oranges" value="1" />Oranges <br>
     <input type="checkbox" name="pineapple" value="1" />Pineapple <br>
-
-	 <h1>Vegetables</h1>
+    
+  <h1>Vegetables</h1>
 
     <input type="checkbox" name="beans" value="1" />Beans <br>
     <input type="checkbox" name="carrots" value="1" />Carrots <br>
     <input type="checkbox" name="celery" value="1" />Celery <br>
     <input type="checkbox" name="potatoes" value="1" />Potatoes <br>
     <input type="checkbox" name="tomatoes" value="1" />Tomatoes <br>
+    
+    <p>
 
 	 <button type="submit" id="additem">Add items</button>
      

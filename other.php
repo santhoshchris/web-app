@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Flexible Layouts</title>
+		<title>Other...</title>
 		<link href="css/general.css" rel="stylesheet">
 
 	<script src="js/list-java.js"></script>
@@ -93,11 +93,7 @@ function MM_swapImage() { //v3.0
             
             <a href="fish.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','buttons/fish2.png',1)"><img src="buttons/fish.png" name="Image9" width="138" height="138" border="0"></a>
     		
-            <img src="buttons/other2.png" width="138" height="138" alt="veggiesfruits">
-            
-            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('edit','','buttons/edit2.png',1)"><img src="buttons/edit.png" name="edit" width="105" height="68" border="0"></a> 
-            
- 			 <a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
+            <img src="buttons/other2.png" width="138" height="138" alt="veggiesfruits"><a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
       
       		<a href="save.php"><img src="buttons/save.png" width="56" height="76" alt="save"></a>
       
@@ -109,17 +105,15 @@ function MM_swapImage() { //v3.0
               <p>
               
 <form method="post" action="other.php">
-    <input id="item" autofocus>
+  <p>
     
-    <p>
-
     <input type="checkbox" name="chips" value="4" />Chips<br/>
     <input type="checkbox" name="candy" value="4" />Candy <br>
     <input type="checkbox" name="cookies" value="4" />Cookies <br>
     <input type="checkbox" name="ketchup" value="4" />Ketchup <br>
     <input type="checkbox" name="lollipop" value="4" />Lollipop <br>
     
-    <p>
+  <p>
 
 	 <button type="submit" id="additem">Add items</button>
      

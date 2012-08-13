@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Flexible Layouts</title>
+		<title>Dairy</title>
 		<link href="css/general.css" rel="stylesheet">
 
 	<script src="js/list-java.js"></script>
@@ -93,11 +93,7 @@ function MM_swapImage() { //v3.0
             
             <a href="fish.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','buttons/fish2.png',1)"><img src="buttons/fish.png" name="Image9" width="138" height="138" border="0"></a>
     		
-            <a href="other.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('other','','buttons/other2.png',1)"><img src="buttons/other.png" name="other" width="136" height="136" border="0"></a> 
-            
-            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('edit','','buttons/edit2.png',1)"><img src="buttons/edit.png" name="edit" width="105" height="68" border="0"></a> 
-            
-      <a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
+            <a href="other.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('other','','buttons/other2.png',1)"><img src="buttons/other.png" name="other" width="136" height="136" border="0"></a><a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
       
       		<a href="save.php"><img src="buttons/save.png" width="56" height="76" alt="save"></a>
       
@@ -109,17 +105,15 @@ function MM_swapImage() { //v3.0
               <p>
               
 <form method="post" action="dairy.php">
-    <input id="item" autofocus>
+  <p>
     
-    <p>
-   
-
+    
     <input type="checkbox" name="milk" value="3" />Milk <br/>
     <input type="checkbox" name="cheese" value="3" />Cheese <br>
     <input type="checkbox" name="butter" value="3" />Butter <br>
     <input type="checkbox" name="yogurt" value="3" />Yogurt <br>
-
-	 <h1>Bread</h1>
+    
+  <h1>Bread</h1>
 
     <input type="checkbox" name="brown" value="3" />Brown <br>
     <input type="checkbox" name="white" value="3" />White <br>

@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Flexible Layouts</title>
+		<title>Meat &amp; Seafood</title>
 		<link href="css/general.css" rel="stylesheet">
 
 	<script src="js/list-java.js"></script>
@@ -93,11 +93,7 @@ function MM_swapImage() { //v3.0
             
            	<img src="buttons/fish2.png" width="138" height="138" alt="veggiesfruits">
         	
-            <a href="other.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('other','','buttons/other2.png',1)"><img src="buttons/other.png" name="other" width="136" height="136" border="0"></a>
-            
-            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('edit','','buttons/edit2.png',1)"><img src="buttons/edit.png" name="edit" width="105" height="68" border="0"></a> 
-            
-            <a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
+            <a href="other.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('other','','buttons/other2.png',1)"><img src="buttons/other.png" name="other" width="136" height="136" border="0"></a><a href="undo.php"><img src="buttons/undo.png" width="63" height="78" alt="undo"></a>
       
       		<a href="save.php"><img src="buttons/save.png" width="56" height="76" alt="save"></a>
       
@@ -109,26 +105,26 @@ function MM_swapImage() { //v3.0
               <p>
               
 <form method="post" action="fish.php">
-    <input id="item" autofocus>
+  <p>
     
-    <p>
-   
-   
+    
     <input type="checkbox" name="chicken" value="2" />Chicken<br/>
     <input type="checkbox" name="lamb" value="2" />Lamb<br>
     <input type="checkbox" name="beef" value="2" />Beef <br>
     <input type="checkbox" name="oranges" value="2" />Oranges <br>
-
-
-	 <h1>Seafood</h1>
-
-    <input type="checkbox" name="lobster" value="2" />Lobster <br>
-    <input type="checkbox" name="oyster" value="2" />Oyster <br>
     
+    
+  <h1>Seafood</h1>
+
     <p>
-
-	 <button type="submit" id="additem">Add items</button>
-
+      <input type="checkbox" name="lobster" value="2" />
+      Lobster <br>
+      <input type="checkbox" name="oyster" value="2" />Oyster <br>
+    </p>
+<p>
+  
+  <button type="submit" id="additem">Add items</button>
+  
 </form>
                     
       </div>

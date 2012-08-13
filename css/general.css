@@ -1,7 +1,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	background-color:#000;
+	background-color:#0066CC;
 	color: #e2e2e2;
 	font: normal 100%/1.5 sans-serif;
 }
@@ -66,7 +66,7 @@ nav a:active,
 nav .current a,
 nav .current a:link,
 nav .current a:visited {
-	background-color: rgba(50,50,50,0.5);
+	
 	color: #fff;
 	-moz-border-radius-topleft: 4px;
 	-moz-border-radius-topright: 4px;
@@ -100,7 +100,6 @@ nav .current a:visited {
 
 .col{
 	text-align:left;
-	background-color: #333;
 	float: left;
 	width: 12.65%;
 	padding: 1%;
@@ -110,7 +109,8 @@ nav .current a:visited {
 
 .triple{
 	text-align:left;
-	background-color: #666;
+	background-color: #FFFF99;
+	font:family=Courgette;
 	float: left;
 	width: 30%;
 	padding: 1%;
