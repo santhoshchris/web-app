@@ -122,6 +122,12 @@ nav .current a:visited {
 	background-color: #666;
 }
 
+.final{
+	
+	color:#006699;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
 
 nav .current a,
 nav .current a:link,

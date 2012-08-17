@@ -131,12 +131,16 @@ function MM_swapImage() { //v3.0
 </form>
                     
       </div>
+      
+       <div class="final">     
                       
 		<?php 
         
     include 'includes/list-final.php';
     
     ?> 
+    
+    </div>
          
         </ul>
       </div>       
