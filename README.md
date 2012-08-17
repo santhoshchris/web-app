@@ -16,4 +16,4 @@
 
 ##PHP Fog Link
 
-[PHP Fog Link][http://sunnygroceries.phpfogapp.com/dairy.php]
+[PHP Fog Link][http://sunnygroceries.phpfogapp.com]
