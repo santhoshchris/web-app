@@ -80,11 +80,6 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
         </script>
-    <style type="text/css">
-    body,td,th {
-	color: #036;
-}
-    </style>
 	</head>
 	<body onLoad="MM_preloadImages('buttons/dairy2.png','buttons/fruitsveggies2.png','buttons/fish2.png','buttons/other2.png')">
        
